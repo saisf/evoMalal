@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1249CF28360CC000A705AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249CE28360CC000A705AC /* AppDelegate.swift */; };
+		AC1249D128360CC000A705AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249D028360CC000A705AC /* SceneDelegate.swift */; };
+		AC1249D328360CC000A705AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249D228360CC000A705AC /* ViewController.swift */; };
+		AC1249D628360CC000A705AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1249D428360CC000A705AC /* Main.storyboard */; };
+		AC1249D828360CC100A705AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1249D728360CC100A705AC /* Assets.xcassets */; };
+		AC1249DB28360CC100A705AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1249D928360CC100A705AC /* LaunchScreen.storyboard */; };
+		AC1249E628360CC100A705AC /* LalalalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249E528360CC100A705AC /* LalalalaTests.swift */; };
+		AC1249F028360CC100A705AC /* LalalalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249EF28360CC100A705AC /* LalalalaUITests.swift */; };
+		AC1249F228360CC100A705AC /* LalalalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249F128360CC100A705AC /* LalalalaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1249E228360CC100A705AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1249C328360CC000A705AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1249CA28360CC000A705AC;
+			remoteInfo = Lalalala;
+		};
+		AC1249EC28360CC100A705AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1249C328360CC000A705AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1249CA28360CC000A705AC;
+			remoteInfo = Lalalala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC1249CB28360CC000A705AC /* Lalalala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lalalala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1249CE28360CC000A705AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC1249D028360CC000A705AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC1249D228360CC000A705AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC1249D528360CC000A705AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1249D728360CC100A705AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC1249DA28360CC100A705AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC1249DC28360CC100A705AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1249E128360CC100A705AC /* LalalalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalalalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1249E528360CC100A705AC /* LalalalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalalalaTests.swift; sourceTree = "<group>"; };
+		AC1249EB28360CC100A705AC /* LalalalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalalalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1249EF28360CC100A705AC /* LalalalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalalalaUITests.swift; sourceTree = "<group>"; };
+		AC1249F128360CC100A705AC /* LalalalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalalalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC1249C828360CC000A705AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1249DE28360CC100A705AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1249E828360CC100A705AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1249C228360CC000A705AC = {
+			isa = PBXGroup;
+			children = (
+				AC1249CD28360CC000A705AC /* Lalalala */,
+				AC1249E428360CC100A705AC /* LalalalaTests */,
+				AC1249EE28360CC100A705AC /* LalalalaUITests */,
+				AC1249CC28360CC000A705AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1249CC28360CC000A705AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1249CB28360CC000A705AC /* Lalalala.app */,
+				AC1249E128360CC100A705AC /* LalalalaTests.xctest */,
+				AC1249EB28360CC100A705AC /* LalalalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1249CD28360CC000A705AC /* Lalalala */ = {
+			isa = PBXGroup;
+			children = (
+				AC1249CE28360CC000A705AC /* AppDelegate.swift */,
+				AC1249D028360CC000A705AC /* SceneDelegate.swift */,
+				AC1249D228360CC000A705AC /* ViewController.swift */,
+				AC1249D428360CC000A705AC /* Main.storyboard */,
+				AC1249D728360CC100A705AC /* Assets.xcassets */,
+				AC1249D928360CC100A705AC /* LaunchScreen.storyboard */,
+				AC1249DC28360CC100A705AC /* Info.plist */,
+			);
+			path = Lalalala;
+			sourceTree = "<group>";
+		};
+		AC1249E428360CC100A705AC /* LalalalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1249E528360CC100A705AC /* LalalalaTests.swift */,
+			);
+			path = LalalalaTests;
+			sourceTree = "<group>";
+		};
+		AC1249EE28360CC100A705AC /* LalalalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1249EF28360CC100A705AC /* LalalalaUITests.swift */,
+				AC1249F128360CC100A705AC /* LalalalaUITestsLaunchTests.swift */,
+			);
+			path = LalalalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC1249CA28360CC000A705AC /* Lalalala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1249F528360CC100A705AC /* Build configuration list for PBXNativeTarget "Lalalala" */;
+			buildPhases = (
+				AC1249C728360CC000A705AC /* Sources */,
+				AC1249C828360CC000A705AC /* Frameworks */,
+				AC1249C928360CC000A705AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lalalala;
+			productName = Lalalala;
+			productReference = AC1249CB28360CC000A705AC /* Lalalala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC1249E028360CC100A705AC /* LalalalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1249F828360CC100A705AC /* Build configuration list for PBXNativeTarget "LalalalaTests" */;
+			buildPhases = (
+				AC1249DD28360CC100A705AC /* Sources */,
+				AC1249DE28360CC100A705AC /* Frameworks */,
+				AC1249DF28360CC100A705AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1249E328360CC100A705AC /* PBXTargetDependency */,
+			);
+			name = LalalalaTests;
+			productName = LalalalaTests;
+			productReference = AC1249E128360CC100A705AC /* LalalalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC1249EA28360CC100A705AC /* LalalalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1249FB28360CC100A705AC /* Build configuration list for PBXNativeTarget "LalalalaUITests" */;
+			buildPhases = (
+				AC1249E728360CC100A705AC /* Sources */,
+				AC1249E828360CC100A705AC /* Frameworks */,
+				AC1249E928360CC100A705AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1249ED28360CC100A705AC /* PBXTargetDependency */,
+			);
+			name = LalalalaUITests;
+			productName = LalalalaUITests;
+			productReference = AC1249EB28360CC100A705AC /* LalalalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC1249C328360CC000A705AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AC1249CA28360CC000A705AC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					AC1249E028360CC100A705AC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AC1249CA28360CC000A705AC;
+					};
+					AC1249EA28360CC100A705AC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = AC1249CA28360CC000A705AC;
+					};
+				};
+			};
+			buildConfigurationList = AC1249C628360CC000A705AC /* Build configuration list for PBXProject "Lalalala" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1249C228360CC000A705AC;
+			productRefGroup = AC1249CC28360CC000A705AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC1249CA28360CC000A705AC /* Lalalala */,
+				AC1249E028360CC100A705AC /* LalalalaTests */,
+				AC1249EA28360CC100A705AC /* LalalalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC1249C928360CC000A705AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1249DB28360CC100A705AC /* LaunchScreen.storyboard in Resources */,
+				AC1249D828360CC100A705AC /* Assets.xcassets in Resources */,
+				AC1249D628360CC000A705AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1249DF28360CC100A705AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1249E928360CC100A705AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC1249C728360CC000A705AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1249D328360CC000A705AC /* ViewController.swift in Sources */,
+				AC1249CF28360CC000A705AC /* AppDelegate.swift in Sources */,
+				AC1249D128360CC000A705AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1249DD28360CC100A705AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1249E628360CC100A705AC /* LalalalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1249E728360CC100A705AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1249F228360CC100A705AC /* LalalalaUITestsLaunchTests.swift in Sources */,
+				AC1249F028360CC100A705AC /* LalalalaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC1249E328360CC100A705AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1249CA28360CC000A705AC /* Lalalala */;
+			targetProxy = AC1249E228360CC100A705AC /* PBXContainerItemProxy */;
+		};
+		AC1249ED28360CC100A705AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1249CA28360CC000A705AC /* Lalalala */;
+			targetProxy = AC1249EC28360CC100A705AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC1249D428360CC000A705AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1249D528360CC000A705AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC1249D928360CC100A705AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1249DA28360CC100A705AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC1249F328360CC100A705AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC1249F428360CC100A705AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC1249F628360CC100A705AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5K99ZV37J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lalalala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readme.Lalalala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC1249F728360CC100A705AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5K99ZV37J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lalalala/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readme.Lalalala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC1249F928360CC100A705AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5K99ZV37J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readme.LalalalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lalalala.app/Lalalala";
+			};
+			name = Debug;
+		};
+		AC1249FA28360CC100A705AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5K99ZV37J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readme.LalalalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lalalala.app/Lalalala";
+			};
+			name = Release;
+		};
+		AC1249FC28360CC100A705AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5K99ZV37J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readme.LalalalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lalalala;
+			};
+			name = Debug;
+		};
+		AC1249FD28360CC100A705AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5K99ZV37J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readme.LalalalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lalalala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC1249C628360CC000A705AC /* Build configuration list for PBXProject "Lalalala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1249F328360CC100A705AC /* Debug */,
+				AC1249F428360CC100A705AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1249F528360CC100A705AC /* Build configuration list for PBXNativeTarget "Lalalala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1249F628360CC100A705AC /* Debug */,
+				AC1249F728360CC100A705AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1249F828360CC100A705AC /* Build configuration list for PBXNativeTarget "LalalalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1249F928360CC100A705AC /* Debug */,
+				AC1249FA28360CC100A705AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1249FB28360CC100A705AC /* Build configuration list for PBXNativeTarget "LalalalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1249FC28360CC100A705AC /* Debug */,
+				AC1249FD28360CC100A705AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC1249C328360CC000A705AC /* Project object */;
+}

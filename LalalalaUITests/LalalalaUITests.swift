@@ -22,20 +22,13 @@ class LalalalaUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testWhenUserTapTableViewCellNavigateToRelatedDetailView() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+        let cell = app.tables/*@START_MENU_TOKEN@*/.cells.containing(.staticText, identifier:"Kendra Guthrie").element/*[[".cells.containing(.staticText, identifier:\"Kendra Guthrie\").element",".cells.containing(.staticText, identifier:\"$392.36\").element"],[[[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
+        cell.tap()
+        let navBarTile = app.navigationBars.staticTexts["Kendra Guthrie"]
+        XCTAssertTrue(navBarTile.exists)
     }
 }

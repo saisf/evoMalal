@@ -8,29 +8,55 @@
 import XCTest
 @testable import Lalalala
 
-class LalalalaTests: XCTestCase {
+class DeliveryTests: XCTestCase {
+    
+    var mockDelivery: Delivery?
+    var mockRoute: Route?
+    var mockSender: Sender?
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        mockSender = Sender(phone: "+1 (888) 888-8888", name: "Tester", email: "test@test.com")
+        mockRoute = Route(start: "Test Street", end: "Test Court")
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testDelivery() throws {
+        guard let mockRoute = mockRoute, let mockSender = mockSender else {
+            throw TestError.unwrappingWithNilValue
         }
+        mockDelivery = Delivery(id: "testId", remarks: "testRemarks", pickupTime: "testPickupTime", goodsPicture: "test.insert", deliveryFee: "deliveryFee", surcharge: "$136.46", route: mockRoute, sender: mockSender)
+        XCTAssertEqual(mockDelivery?.id, "testId")
+        XCTAssertEqual(mockDelivery?.remarks, "testRemarks")
+        XCTAssertEqual(mockDelivery?.pickupTime, "testPickupTime")
+        XCTAssertEqual(mockDelivery?.goodsPicture, "test.insert")
+        XCTAssertEqual(mockDelivery?.deliveryFee, "deliveryFee")
+        XCTAssertEqual(mockDelivery?.surcharge, "$136.46")
     }
-
+    
+    func testRoute() throws {
+        guard let mockRoute = mockRoute, let mockSender = mockSender else {
+            throw TestError.unwrappingWithNilValue
+        }
+        mockDelivery = Delivery(id: "testId", remarks: "testRemarks", pickupTime: "testPickupTime", goodsPicture: "test.insert", deliveryFee: "deliveryFee", surcharge: "$136.46", route: mockRoute, sender: mockSender)
+        XCTAssertEqual(mockDelivery?.route.start, "Test Street")
+        XCTAssertEqual(mockDelivery?.route.end, "Test Court")
+    }
+    
+    func testSender() throws {
+        guard let mockRoute = mockRoute, let mockSender = mockSender else {
+            throw TestError.unwrappingWithNilValue
+        }
+        mockDelivery = Delivery(id: "testId", remarks: "testRemarks", pickupTime: "testPickupTime", goodsPicture: "test.insert", deliveryFee: "deliveryFee", surcharge: "$136.46", route: mockRoute, sender: mockSender)
+        XCTAssertEqual(mockDelivery?.sender.phone, "+1 (888) 888-8888")
+        XCTAssertEqual(mockDelivery?.sender.name, "Tester")
+        XCTAssertEqual(mockDelivery?.sender.email, "test@test.com")
+    }
 }
+
+enum TestError: Error {
+    case unwrappingWithNilValue
+}
+

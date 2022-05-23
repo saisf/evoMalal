@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		AC1249CF28360CC000A705AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249CE28360CC000A705AC /* AppDelegate.swift */; };
 		AC1249D128360CC000A705AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249D028360CC000A705AC /* SceneDelegate.swift */; };
-		AC1249D328360CC000A705AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249D228360CC000A705AC /* ViewController.swift */; };
-		AC1249D628360CC000A705AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1249D428360CC000A705AC /* Main.storyboard */; };
+		AC1249D328360CC000A705AC /* DeliveryDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249D228360CC000A705AC /* DeliveryDisplayViewController.swift */; };
 		AC1249D828360CC100A705AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1249D728360CC100A705AC /* Assets.xcassets */; };
 		AC1249DB28360CC100A705AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1249D928360CC100A705AC /* LaunchScreen.storyboard */; };
 		AC1249E628360CC100A705AC /* LalalalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249E528360CC100A705AC /* LalalalaTests.swift */; };
 		AC1249F028360CC100A705AC /* LalalalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249EF28360CC100A705AC /* LalalalaUITests.swift */; };
 		AC1249F228360CC100A705AC /* LalalalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1249F128360CC100A705AC /* LalalalaUITestsLaunchTests.swift */; };
+		AC83A8382837453D00FB77C4 /* LoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83A8372837453D00FB77C4 /* LoggerManager.swift */; };
+		AC83A83B2837483300FB77C4 /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83A83A2837483300FB77C4 /* Delivery.swift */; };
+		AC8FF4B32837CBA100AC6F27 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FF4B22837CBA100AC6F27 /* UIImageViewExtensions.swift */; };
+		AC8FF4B52838E99100AC6F27 /* DeliveryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FF4B42838E99100AC6F27 /* DeliveryDetailViewController.swift */; };
+		AC8FF4B7283A9A7D00AC6F27 /* DeliveryFavoriteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FF4B6283A9A7D00AC6F27 /* DeliveryFavoriteHelper.swift */; };
+		AC8FF4BB283B1BF000AC6F27 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8FF4BA283B1BF000AC6F27 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,7 @@
 		AC1249CB28360CC000A705AC /* Lalalala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lalalala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1249CE28360CC000A705AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC1249D028360CC000A705AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC1249D228360CC000A705AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC1249D528360CC000A705AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC1249D228360CC000A705AC /* DeliveryDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDisplayViewController.swift; sourceTree = "<group>"; };
 		AC1249D728360CC100A705AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1249DA28360CC100A705AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC1249DC28360CC100A705AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		AC1249EB28360CC100A705AC /* LalalalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalalalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1249EF28360CC100A705AC /* LalalalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalalalaUITests.swift; sourceTree = "<group>"; };
 		AC1249F128360CC100A705AC /* LalalalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalalalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC83A8372837453D00FB77C4 /* LoggerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerManager.swift; sourceTree = "<group>"; };
+		AC83A83A2837483300FB77C4 /* Delivery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		AC8FF4B22837CBA100AC6F27 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		AC8FF4B42838E99100AC6F27 /* DeliveryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailViewController.swift; sourceTree = "<group>"; };
+		AC8FF4B6283A9A7D00AC6F27 /* DeliveryFavoriteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryFavoriteHelper.swift; sourceTree = "<group>"; };
+		AC8FF4BA283B1BF000AC6F27 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,13 @@
 		AC1249CD28360CC000A705AC /* Lalalala */ = {
 			isa = PBXGroup;
 			children = (
+				AC8FF4B9283B1BCF00AC6F27 /* Constants */,
+				AC8FF4B8283A9AFB00AC6F27 /* ViewControllers */,
+				AC8FF4B12837BE0100AC6F27 /* Extensions */,
+				AC83A8392837481600FB77C4 /* Models */,
+				AC83A8362837451800FB77C4 /* Managers */,
 				AC1249CE28360CC000A705AC /* AppDelegate.swift */,
 				AC1249D028360CC000A705AC /* SceneDelegate.swift */,
-				AC1249D228360CC000A705AC /* ViewController.swift */,
-				AC1249D428360CC000A705AC /* Main.storyboard */,
 				AC1249D728360CC100A705AC /* Assets.xcassets */,
 				AC1249D928360CC100A705AC /* LaunchScreen.storyboard */,
 				AC1249DC28360CC100A705AC /* Info.plist */,
@@ -125,6 +138,48 @@
 				AC1249F128360CC100A705AC /* LalalalaUITestsLaunchTests.swift */,
 			);
 			path = LalalalaUITests;
+			sourceTree = "<group>";
+		};
+		AC83A8362837451800FB77C4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A8372837453D00FB77C4 /* LoggerManager.swift */,
+				AC8FF4B6283A9A7D00AC6F27 /* DeliveryFavoriteHelper.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AC83A8392837481600FB77C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A83A2837483300FB77C4 /* Delivery.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8FF4B12837BE0100AC6F27 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC8FF4B22837CBA100AC6F27 /* UIImageViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC8FF4B8283A9AFB00AC6F27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC1249D228360CC000A705AC /* DeliveryDisplayViewController.swift */,
+				AC8FF4B42838E99100AC6F27 /* DeliveryDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC8FF4B9283B1BCF00AC6F27 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AC8FF4BA283B1BF000AC6F27 /* Constant.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +288,6 @@
 			files = (
 				AC1249DB28360CC100A705AC /* LaunchScreen.storyboard in Resources */,
 				AC1249D828360CC100A705AC /* Assets.xcassets in Resources */,
-				AC1249D628360CC000A705AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1249D328360CC000A705AC /* ViewController.swift in Sources */,
+				AC8FF4B52838E99100AC6F27 /* DeliveryDetailViewController.swift in Sources */,
+				AC1249D328360CC000A705AC /* DeliveryDisplayViewController.swift in Sources */,
+				AC8FF4BB283B1BF000AC6F27 /* Constant.swift in Sources */,
+				AC83A8382837453D00FB77C4 /* LoggerManager.swift in Sources */,
+				AC8FF4B7283A9A7D00AC6F27 /* DeliveryFavoriteHelper.swift in Sources */,
 				AC1249CF28360CC000A705AC /* AppDelegate.swift in Sources */,
 				AC1249D128360CC000A705AC /* SceneDelegate.swift in Sources */,
+				AC8FF4B32837CBA100AC6F27 /* UIImageViewExtensions.swift in Sources */,
+				AC83A83B2837483300FB77C4 /* Delivery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC1249D428360CC000A705AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC1249D528360CC000A705AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC1249D928360CC100A705AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +494,7 @@
 				INFOPLIST_FILE = Lalalala/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +522,7 @@
 				INFOPLIST_FILE = Lalalala/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
